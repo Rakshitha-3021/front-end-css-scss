@@ -1,0 +1,106 @@
+/* Stylesheet for the Refrigerator Landing Page */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#hero {
+    background-image: url('refrigerator_hero.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 50px;
+}
+
+#hero h2 {
+    margin-bottom: 80px;
+}
+
+.btn {
+    background-color: blue;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+}
+
+#features {
+    padding: 200px 100px;
+    text-align: center;
+}
+
+.feature {
+    margin-bottom: 300px;
+}
+
+.feature img {
+    width: 350px;
+    border-radius: 90%;
+    margin-bottom: 100px;
+}
+ 
+#order {
+    background-color: #f4f4f4;
+    padding: 80px 60px;
+    text-align: center;
+}
+
+form {
+    margin-top: 40px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 50px;
+}
+
+form input {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
